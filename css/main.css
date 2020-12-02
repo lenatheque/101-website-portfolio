@@ -37,3 +37,47 @@ body {
   padding-left: 50px;
   padding-right: 50px;
 }
+
+#work {
+  background-color: #f9ceb7;
+  text-align: center;
+}
+
+#work .full-width {
+  padding: 115px 0;
+}
+
+#work img {
+  padding-bottom: 30px;
+}
+
+#work h3 {
+  font-size: 24px;
+  line-height: 32px;
+  width: 190px;
+  margin: 0 auto;
+}
+
+#work p {
+  font-family: "Lora", serif;
+  font-size: 18px;
+  line-height: 30px;
+  padding: 0 50px;
+}
+#contact .full-width {
+  padding: 110px 0;
+}
+#contact img#contact-img {
+  margin-left: 25px;
+  border: 12px solid #ffffff;
+}
+
+#contact h2,
+#contact #email-header,
+#contact #socialmedia-header,
+#contact ul {
+  padding-left: 115px;
+}
+#contact #envelope {
+  padding: 0 10px 0 115px;
+}

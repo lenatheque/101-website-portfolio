@@ -64,14 +64,17 @@ body {
   line-height: 30px;
   padding: 0 50px;
 }
+#contact {
+  background-color: #ebebeb;
+}
 #contact .full-width {
   padding: 110px 0;
 }
-#contact img#contact-img {
+
+#contact-img {
   margin-left: 25px;
   border: 12px solid #ffffff;
 }
-
 #contact h2,
 #contact #email-header,
 #contact #socialmedia-header,
@@ -80,4 +83,36 @@ body {
 }
 #contact #envelope {
   padding: 0 10px 0 115px;
+}
+#contact h2 {
+  font-family: "Lora", serif;
+  font-size: 36px;
+  line-height: 44px;
+}
+#contact #email-header {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 44px;
+  margin: -30px 0 5px 0;
+}
+#contact #socialmedia-header {
+  font-weight: bold;
+  font-size: 29px;
+  line-height: 44px;
+  margin: 40px 0 0 0;
+}
+#contact a {
+  text-decoration: none;
+  color: #c49075;
+  font-weight: bold;
+  font-size: 28px;
+}
+#contact ul {
+  list-style: none;
+}
+#contact ul li {
+  display: inline-block;
+}
+#contact ul img {
+  padding-right: 48px;
 }

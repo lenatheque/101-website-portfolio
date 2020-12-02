@@ -19,6 +19,47 @@ body {
   float: left;
 }
 
+/* HEADER */
+header {
+  height: 800px;
+  background: url("../img/full-background.png");
+  background-size: cover;
+  background-position: center;
+}
+
+header h1 {
+  font-family: "Lora", serif;
+  font-size: 30px;
+  color: #bbc085;
+  padding: 65px 0 65px 25px;
+}
+nav {
+  float: right;
+  padding: 75px 25px;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 18px;
+  color: #828282;
+  padding-left: 80px;
+}
+header h2 {
+  width: 1000px;
+  clear: both;
+  font-family: "Lora", serif;
+  font-size: 72px;
+  line-height: 80px;
+  color: #9b9b9b;
+  padding: 20px 0 20px 25px;
+}
+header h2 span {
+  color: #2b2b2b;
+}
+
 /* ABOUT SECTION */
 
 #about .full-width {

@@ -21,10 +21,11 @@ body {
 
 /* HEADER */
 header {
-  height: 800px;
+  height: auto;
   background: url("../img/full-background.png");
   background-size: cover;
   background-position: center;
+  width: 100%;
 }
 
 header h1 {
@@ -83,6 +84,7 @@ header h2 span {
 #work {
   background-color: #f9ceb7;
   text-align: center;
+  width: 100%;
 }
 
 #work .full-width {
@@ -109,6 +111,7 @@ header h2 span {
 /* CONTACT SECTION */
 #contact {
   background-color: #ebebeb;
+  width: 100%;
 }
 #contact .full-width {
   padding: 110px 0;

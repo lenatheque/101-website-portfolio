@@ -21,11 +21,10 @@ body {
 
 /* HEADER */
 header {
-  height: auto;
+  height: 800px;
   background: url("../img/full-background.png");
   background-size: cover;
   background-position: center;
-  width: 100%;
 }
 
 header h1 {
